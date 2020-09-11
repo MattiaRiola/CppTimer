@@ -1,0 +1,3 @@
+/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles/TimerCLionProject.dir
