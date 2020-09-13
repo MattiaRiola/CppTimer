@@ -3,4 +3,4 @@ project(TimerCLionProject)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(TimerCLionProject main.cpp)
+add_executable(TimerCLionProject main.cpp Timer.cpp Timer.h Alarm.cpp Alarm.h)

@@ -94,12 +94,12 @@ clean: CMakeFiles/TimerCLionProject.dir/clean
 CMakeFiles/TimerCLionProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TimerCLionProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target TimerCLionProject"
 .PHONY : CMakeFiles/TimerCLionProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TimerCLionProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TimerCLionProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/TimerCLionProject.dir/rule

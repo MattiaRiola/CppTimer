@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.cpp
+iostream
+-
+Timer.h
+/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.h
+unistd.h
+-
+
+/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.h
+string
+-
+

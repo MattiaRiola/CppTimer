@@ -143,6 +143,60 @@ TimerCLionProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/build
 .PHONY : TimerCLionProject/fast
 
+Alarm.o: Alarm.cpp.o
+
+.PHONY : Alarm.o
+
+# target to build an object file
+Alarm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o
+.PHONY : Alarm.cpp.o
+
+Alarm.i: Alarm.cpp.i
+
+.PHONY : Alarm.i
+
+# target to preprocess a source file
+Alarm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/Alarm.cpp.i
+.PHONY : Alarm.cpp.i
+
+Alarm.s: Alarm.cpp.s
+
+.PHONY : Alarm.s
+
+# target to generate assembly for a file
+Alarm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/Alarm.cpp.s
+.PHONY : Alarm.cpp.s
+
+Timer.o: Timer.cpp.o
+
+.PHONY : Timer.o
+
+# target to build an object file
+Timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/Timer.cpp.o
+.PHONY : Timer.cpp.o
+
+Timer.i: Timer.cpp.i
+
+.PHONY : Timer.i
+
+# target to preprocess a source file
+Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/Timer.cpp.i
+.PHONY : Timer.cpp.i
+
+Timer.s: Timer.cpp.s
+
+.PHONY : Timer.s
+
+# target to generate assembly for a file
+Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimerCLionProject.dir/build.make CMakeFiles/TimerCLionProject.dir/Timer.cpp.s
+.PHONY : Timer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TimerCLionProject"
+	@echo "... Alarm.o"
+	@echo "... Alarm.i"
+	@echo "... Alarm.s"
+	@echo "... Timer.o"
+	@echo "... Timer.i"
+	@echo "... Timer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
