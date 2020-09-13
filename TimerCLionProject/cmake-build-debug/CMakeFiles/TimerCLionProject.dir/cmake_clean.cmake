@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o"
+  "CMakeFiles/TimerCLionProject.dir/Timer.cpp.o"
   "CMakeFiles/TimerCLionProject.dir/main.cpp.o"
   "TimerCLionProject"
   "TimerCLionProject.pdb"

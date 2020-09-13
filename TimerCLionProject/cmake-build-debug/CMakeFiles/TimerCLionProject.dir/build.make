@@ -90,17 +90,47 @@ CMakeFiles/TimerCLionProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimerCLionProject.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/main.cpp -o CMakeFiles/TimerCLionProject.dir/main.cpp.s
 
+CMakeFiles/TimerCLionProject.dir/Timer.cpp.o: CMakeFiles/TimerCLionProject.dir/flags.make
+CMakeFiles/TimerCLionProject.dir/Timer.cpp.o: ../Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TimerCLionProject.dir/Timer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TimerCLionProject.dir/Timer.cpp.o -c /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.cpp
+
+CMakeFiles/TimerCLionProject.dir/Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimerCLionProject.dir/Timer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.cpp > CMakeFiles/TimerCLionProject.dir/Timer.cpp.i
+
+CMakeFiles/TimerCLionProject.dir/Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimerCLionProject.dir/Timer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.cpp -o CMakeFiles/TimerCLionProject.dir/Timer.cpp.s
+
+CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o: CMakeFiles/TimerCLionProject.dir/flags.make
+CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o: ../Alarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o -c /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Alarm.cpp
+
+CMakeFiles/TimerCLionProject.dir/Alarm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TimerCLionProject.dir/Alarm.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Alarm.cpp > CMakeFiles/TimerCLionProject.dir/Alarm.cpp.i
+
+CMakeFiles/TimerCLionProject.dir/Alarm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TimerCLionProject.dir/Alarm.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Alarm.cpp -o CMakeFiles/TimerCLionProject.dir/Alarm.cpp.s
+
 # Object files for target TimerCLionProject
 TimerCLionProject_OBJECTS = \
-"CMakeFiles/TimerCLionProject.dir/main.cpp.o"
+"CMakeFiles/TimerCLionProject.dir/main.cpp.o" \
+"CMakeFiles/TimerCLionProject.dir/Timer.cpp.o" \
+"CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o"
 
 # External object files for target TimerCLionProject
 TimerCLionProject_EXTERNAL_OBJECTS =
 
 TimerCLionProject: CMakeFiles/TimerCLionProject.dir/main.cpp.o
+TimerCLionProject: CMakeFiles/TimerCLionProject.dir/Timer.cpp.o
+TimerCLionProject: CMakeFiles/TimerCLionProject.dir/Alarm.cpp.o
 TimerCLionProject: CMakeFiles/TimerCLionProject.dir/build.make
 TimerCLionProject: CMakeFiles/TimerCLionProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TimerCLionProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TimerCLionProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TimerCLionProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Alarm.cpp">
+			<Option target="TimerCLionProject"/>
+		</Unit>
+		<Unit filename="/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Alarm.h">
+			<Option target="TimerCLionProject"/>
+		</Unit>
+		<Unit filename="/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.cpp">
+			<Option target="TimerCLionProject"/>
+		</Unit>
+		<Unit filename="/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/Timer.h">
+			<Option target="TimerCLionProject"/>
+		</Unit>
 		<Unit filename="/Users/mattia/OneDrive/Desktop/Workspace/CLionWorkspace/CPPTimerProject/CppTimer/TimerCLionProject/main.cpp">
 			<Option target="TimerCLionProject"/>
 		</Unit>
